@@ -31,7 +31,7 @@ int main() {
 
 	//myEnumColor cannot be equal to
 	//anything but RED,GREEN,BLUE
-	//following generates an invalid conversion from enum to int error
+	//the following generates an invalid conversion from enum to int error
 	//this is how compiler catches erroneous values
 //	myEnumColor = 19%10;
 }
@@ -39,9 +39,9 @@ int main() {
 void demoConstants() {
 	//constants
 	const int MYINT = 3;	//dandy
-//	MYINT = 2;				//cannot modify
+//	MYINT = 2;				//compiler error, cannot modify
 //	MYINT++;				//"
 	const int myint2=5;		//must initialize when created
-//	myint2 = 5;				//cannot modify
+//	myint2 = 5;				//compiler error, cannot modify
 
 }
